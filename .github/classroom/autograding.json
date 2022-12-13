@@ -4,8 +4,8 @@
       "name": "I1 ",
       "setup": "",
       "run": "g++ -std=c++11 main.cpp && ./a.out",
-      "input": "-5 10 20 25",
-      "output": "[\\w,\\W]*30[\\w,\\W]*",
+      "input": "3 10 20 25",
+      "output": "[\\w,\\W]*20[\\w,\\W]*",
       "comparison": "regex",
       "timeout": 1,
       "points": 5
