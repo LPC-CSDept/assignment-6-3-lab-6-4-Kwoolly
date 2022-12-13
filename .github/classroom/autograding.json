@@ -7,17 +7,17 @@
       "input": "",
       "output": "",
       "comparison": "included",
-      "timeout": 10,
+      "timeout": 1,
       "points": 5
     },
     {
-      "name": "I1 &#45;5 10 20 25",
+      "name": "I1 &#38;&#35;45&#59;5 10 20 25",
       "setup": "",
       "run": "g++ -std=c++11 main.cpp && ./a.out",
       "input": "-5 10 20 25",
       "output": "[\\w,\\W]*30[\\w,\\W]*",
       "comparison": "regex",
-      "timeout": 10,
+      "timeout": 1,
       "points": 5
     }
   ]
