@@ -9,6 +9,16 @@
       "comparison": "regex",
       "timeout": 1,
       "points": 5
+    },
+    {
+      "name": "I2",
+      "setup": "",
+      "run": "g++ -std=c++11 main.cpp && ./a.out",
+      "input": "0 5 10 25 100",
+      "output": "[\\w,\\W]*40[\\w,\\W]*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 5
     }
   ]
 }
