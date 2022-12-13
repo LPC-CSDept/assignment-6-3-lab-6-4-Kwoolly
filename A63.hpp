@@ -15,7 +15,6 @@ int getsum(int N)
 	int max, min, num, sum = 0;
 	for (i = 0; i < N; i++) //* N = 3
 	{
-		cout << "Enter your th number: ";
 		cin >> num;
 		sum += num;
 		if ((i == 0) || (min > num)) //* min = 1, num = 3
